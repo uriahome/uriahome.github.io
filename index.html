@@ -4,6 +4,10 @@
 		<meta charset="utf-8">
 		<title>うりあほーむ</title>
 		<style>
+			img{
+				max-width:100%;
+				height:auto;
+			}
 			.header{
 				height:65px;
 				background-color:#ffffff;
@@ -41,10 +45,15 @@
 				border-bottom:2px solid #000000;
 			}
 			.ghost-left{
+				width:400px;
 				float:left;
 			}
 			.ghost-right{
 				float:left;
+			}
+			@media screen and (min-width:480px) {
+				img { 
+					float : none ; }
 			}
 		</style>
 	</head>
@@ -56,12 +65,12 @@
 		<div class="main">
 			<h2>ここどこ？</h2>
 			<ul>
-				<li>うりあ君の作成した<a href="index.html#games">ゲーム</a>とかの展示場（予定）です。</li>
+				<li>うりあ君の作成した<a href="index.html#games">ゲーム</a>とか<a href="index.html#illust">イラスト</a>の展示場です。</li>
 				<li><pre>Twitter		<a href="https://twitter.com/uria_">@uria_</a></pre></li>
 				<li><pre>pixiv		<a href="https://pixiv.me/uriahome">こっちこっち</a></pre></li>
 			</ul>
 		</div>
-		<h2 id="games">ゲーム
+		<h2 id="games">GAME
 			<div class="rabbit">
 				<div class="rabbit-left"><img src="rabbitjump.gif" width="300" height="180" alt="GIFアニメーション" border"0" align="center" hspace="10" vspace="10"></div>
 				<div class="rabbit-right">
@@ -74,7 +83,9 @@
 				</div>
 			</div>
 			<div class="ghost">
-				<div class="ghost-left"><img src="ghostsummoner.gif" width="300" height="180" alt="GIFアニメーション" border"0" align="center" hspace="10" vspace="10"></div>
+				<div class="ghost-left">
+					<img src="ghostsummoner.gif" width="300" height="180" alt="GIFアニメーション" border"0" align="center" hspace="10" vspace="10">
+				</div>
 				<div class="ghost-right">
 					<ul>
 						<li class = "gametitle">「ゴーストサモナー」
@@ -82,9 +93,42 @@
 						<li><a href="ghostsummoner.zip">ダウンロード</a></li>
 						<li><a href="ghostsummoner_2/index.html">ブラウザで遊ぶ</a></li>
 					</ul>
+					<img src="gameillust/タイトル.PNG" width="384"height="128" >
+					<img src ="gameillust/ナイト横.PNG" width="96"height="96">
+					<img src ="gameillust/ランサー横.PNG" width="96"height="96">
+					<img src ="gameillust/ガーディアン横.PNG" width="96"height="96">
 				</div>
 			</div>
 		</h2>
+		
+		<h2>ILLUST</h2>
+		<div id="illust">
+		<div>character</div>
+			<div id="character">
+				<img src ="illust/椛切.PNG"width ="128"height="128">
+				<img src ="illust/モミジ.PNG" width="128"height="128">
+				<img src ="illust/ニトリ.PNG" width="128"height="128">
+				<img src ="illust/ルルティエ.PNG" width="128"height="128">
+				<img src ="illust/ネコネ.PNG" width="128"height="128">
+				<img src ="illust/魔法使い君.PNG" width="128"height="128">
+				<img src ="illust/ナイト.PNG" width="128"height="128">
+				<img src ="illust/ランサー.PNG" width="128"height="128">
+				<img src ="illust/ガーディアン.PNG" width="128"height="128">
+			</div>
+		<div>item</div>
+			<div id="item">
+				<img src ="illust/ポーション.PNG" width="128"height="128">
+				<img src ="illust/木箱君.PNG" width="128"height="128">
+				<img src ="illust/魔法陣(青).PNG" width="128"height="128">
+				<img src ="illust/お金.PNG" width="128"height="128">
+				<img src ="illust/緑魔法使い.PNG"width="128"height="128">
+				<img src ="illust/32地面君.PNG" width="128"height="128">
+				<img src ="illust/32地面君2.PNG"width="128"height="128">
+				<img src="illust/おいしいキノコ.PNG"width="128"height="128">
+				<img src="illust/カボチャ.PNG"width="128"height="128">
+				
+			</div>
+		</div>
 
 	</body>
 </html>
