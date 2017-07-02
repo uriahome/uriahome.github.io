@@ -15,6 +15,12 @@
 				float:left;
 				font-size:50px;
 			}
+			.back-left{
+				color:#75ad76;
+				float:left;
+				font-size:50px;
+				opacity: 0.4;
+			}
 			.main{
 				height:65;
 				border-bottom:2px solid #000000;
