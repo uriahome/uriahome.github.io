@@ -1,0 +1,76 @@
+			img{
+				max-width:100%;
+				height:auto;
+			}
+			.allbody{
+				width:1300px;
+			}
+			.header{
+				height:65px;
+				background-color:#ffffff;
+				border-bottom:2px solid #000000;
+			}
+			.header-left{
+				color:#75ad76;
+				float:left;
+				font-size:50px;
+			}
+			.main{
+				height:65;
+				border-bottom:2px solid #000000;
+			}
+			.main li{
+				list-style:none;
+			}
+			.rabbit{
+				height:300px;
+				background-color:#ffffff;
+				border-bottom:2px solid #000000;
+			}
+			.rabbit-left{
+				float:left;
+			}
+			.rabbit-right{
+				float:left;
+			}
+			.gametitle{
+				list-style:none;
+			}
+			.ghost{
+				height:400px;
+				background-color:#ffffff;
+				border-bottom:2px solid #000000;
+			}
+			.ghost-left{
+				width:400px;
+				float:left;
+			}
+			.ghost-right{
+				float:left;
+			}
+			.witch{
+				height:400px;
+				background-color:#ffffff;
+				border-bottom:2px solid #000000;
+			}
+			.witch-left{
+				float:left;
+			}
+			.witch-right{
+				float:left;
+			}
+			.momizi{
+				height:400px;
+				background-color:#ffffff;
+				border-bottom:2px solid #000000;
+			}
+			.momizi-left{
+				float:left;
+			}
+			.momizi-right{
+				float:left;
+			}
+			@media screen and (min-width:480px) {
+				img { 
+					float : none ; }
+			}
