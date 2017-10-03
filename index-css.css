@@ -76,6 +76,17 @@
 			.momizi-right{
 				float:left;
 			}
+			.Forest{
+				height:400px;
+				background-color: #ffffff;
+				border-bottom: 2px solid #000000;
+			}
+			.Forest-left{
+				float:left;
+			}
+			.Forest-right{
+				float: left;
+			}
 			@media screen and (min-width:480px) {
 				img { 
 					float : none ; }
