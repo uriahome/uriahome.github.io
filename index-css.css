@@ -85,7 +85,18 @@
 				float:left;
 			}
 			.Forest-right{
-				float: left;
+				float:left;
+			}
+			.OneDot{
+				height:400px;
+				background-color: #ffffff;
+				border-bottom: 2px solid #000000;
+			}
+			.OneDot-left{
+				float:left;
+			}
+			.OneDot-right{
+				float:left;
 			}
 			@media screen and (min-width:480px) {
 				img { 
